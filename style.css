@@ -1,0 +1,76 @@
+
+.cancha-padre
+{
+	width: 750px;
+	height: 400px;
+	background-color: green;
+	position: relative;
+}
+
+.cancha
+{
+	position: absolute;
+	width: 700px;
+	height: 350px;
+	background-color: green;
+	border: 5px solid white;/*borde: 5 pixeles, tipo borde, color*/
+	/*right: 35px;*/
+	left: 20px;/*movera 20 pixeles hacia la derecha*/
+	top: 23px; /*movera 23 pixeles hacia abajo*/
+}
+
+.arco1
+{
+	position: absolute;
+	width: 80px;
+	height: 150px;
+	background-color: green;
+	border: 5px solid white;
+	left: 640px;
+	top: 120px;
+}
+
+.arco2
+{
+	position: absolute;
+	width: 80px;
+	height: 150px;
+	background-color: green;
+	border: 5px solid white;
+	left: 20px;
+	top: 120px;
+}
+
+.circulo
+{
+	position: absolute;
+	width: 170px;
+	height: 170px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	border: 5px solid white;
+	left: 290px;
+	top: 110px;
+}
+
+.ball1
+{
+	position: absolute;
+	left: 610px;
+	top: 250px;
+}
+
+.ball2
+{
+	position: absolute;
+	left: 370px;
+	top: 70px;
+}
+
+.ball3
+{
+	position: absolute;
+	left: 80px;
+	top: 100px;
+}
